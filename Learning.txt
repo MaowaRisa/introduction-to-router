@@ -1,0 +1,8 @@
+From this project I have learned react router concepts
+1. We need to install react-router dependency 
+2. Need to use createBrowserRouter to define the path, element and children. RouterProvider inside root to active the routes over the app.
+3. We can define the links using anchor tag but it will reload the page each time. so We will use Link to. Good to go with NavLInk because it will add active class for the current link so its easy to modify active link. 
+4. For nested route we will use children 
+5. For Error page we will use errorElement
+6. For fetching data we use loader and create an anonymous function and fetch the data from link. If there is some dynamic route parameter. we use {params} object as parameter. and in the url we use : to define dynamic value and can access the dynamic value by params.value.
+7. 
